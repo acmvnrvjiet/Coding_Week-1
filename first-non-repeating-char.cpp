@@ -7,11 +7,11 @@ For example, given string is "abcdabsc".
 the first non-repeating character is 'd'.
 The approach to the sol:
 Let us first calculate the count of occurence of each charater in the string
-'a'-2
-'b'-2
-'c'-2
-'d'-1
-'s'-1
+'a'= 2
+'b'= 2
+'c'= 2
+'d'= 1
+'s'= 1
 Though there are two characters which are non repeating, the first non-repeating charater in the string will be 'd'
 
 We can create a count array to store the occurences of each charater.
