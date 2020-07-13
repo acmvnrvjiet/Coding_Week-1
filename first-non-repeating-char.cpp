@@ -15,8 +15,8 @@ Let us first calculate the count of occurence of each charater in the string
 Though there are two characters which are non repeating, the first non-repeating charater in the string will be 'd'
 
 We can create a count array to store the occurences of each charater.
-Let the index of 'a' - 0, 'b' - 1, 'c' - 2 and so on..
-The ASCII values of 'a' - 97, 'b' - 98, 'c' - 99 and so on..
+Let the index of 'a'= 0, 'b'= 1, 'c'= 2 and so on..
+The ASCII values of 'a'=97, 'b'= 98, 'c'= 99 and so on..
 Subtract the ASCII value of the charater with 97 to get the index.
 For example, if the character is 'c' : the index value can be obtained by 99-97=3.(ASCII val of 'c' - ASCII val of 'a')
 Traverse through the string. If the count of any character is 1, then break the loop and print the charcter.
